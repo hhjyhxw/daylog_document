@@ -1,0 +1,13 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.icloud.common.core.ApplicationRunnerImpl,\
+  com.icloud.common.core.global.GlobalExceptionHandler,\
+  com.icloud.common.core.config.JacksonConfig,\
+  com.icloud.common.core.config.RestTemplateConfig,\
+  com.icloud.common.core.util.SpringContextUtils,\
+  com.icloud.common.core.config.WebMvcConfig,\
+  com.icloud.common.core.config.ServerConfig,\
+  com.icloud.common.core.util.ftp.FtpService,\
+  com.icloud.common.core.util.ftps.SftpFileService,\
+  com.icloud.common.core.config.FtpConfig,\
+  com.icloud.common.core.config.CommonShareProperties,\
+  com.icloud.common.core.util.SnowflakeCommonService
