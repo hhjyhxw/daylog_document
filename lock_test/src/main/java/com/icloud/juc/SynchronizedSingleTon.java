@@ -1,5 +1,7 @@
 package com.icloud.juc;
 
+import jdk.nashorn.internal.objects.annotations.Function;
+
 /**
  * @author zdh
  */
@@ -21,4 +23,6 @@ public class SynchronizedSingleTon {
         }
         return INSTANCE;
     }
+
+
 }
