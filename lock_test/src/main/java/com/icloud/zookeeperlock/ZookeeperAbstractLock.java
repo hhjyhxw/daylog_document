@@ -13,7 +13,8 @@ public abstract class ZookeeperAbstractLock implements Lock   {
     /**
      * zk服务器地址
      */
-    private static final String CONNECTSTRING="106.12.123.38:2181";
+    //private static final String CONNECTSTRING="106.12.123.38:2181";
+    private static final String CONNECTSTRING="127.0.0.1:2181";
 
 
     /**
