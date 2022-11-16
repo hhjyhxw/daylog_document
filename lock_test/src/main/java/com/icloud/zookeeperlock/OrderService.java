@@ -3,6 +3,7 @@ package com.icloud.zookeeperlock;
 
 import lock.Lock;
 
+
 /**
  * Runnable模拟并发编程
  */
@@ -32,6 +33,7 @@ public class OrderService implements Runnable {
 
 
     public static void main(String[] args) {
+        //Optional
         System.out.println("--------------模拟生成订单号开始--------------");
         for (int i = 1; i <10 ; i++) {
             new Thread(new OrderService()).start();
