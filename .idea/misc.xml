@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/java_io/pom.xml" />
         <option value="$PROJECT_DIR$/lock_test/pom.xml" />
         <option value="$PROJECT_DIR$/kafka_test/pom.xml" />
+        <option value="$PROJECT_DIR$/design_pattern/pom.xml" />
       </list>
     </option>
   </component>

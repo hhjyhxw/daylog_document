@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="kafka_test" />
+        <module name="design_pattern" />
         <module name="java_io" />
         <module name="java_function_test" />
         <module name="yyou-rpc" />
@@ -15,9 +16,10 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="design_pattern" target="1.8" />
       <module name="java_function_test" target="8" />
       <module name="java_io" target="1.5" />
-      <module name="kafka_test" target="1.7" />
+      <module name="kafka_test" target="1.8" />
       <module name="lock_test" target="1.5" />
       <module name="yyou-rpc" target="1.8" />
     </bytecodeTargetLevel>
