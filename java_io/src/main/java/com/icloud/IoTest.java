@@ -23,7 +23,6 @@ public class IoTest {
             FileInputStream fileIn = new FileInputStream("/Users/zdh/Downloads/nqv6u2YsHI.txt");
             FileOutputStream fos = new FileOutputStream("/Users/zdh/Downloads/temp/tmp3.txt");
             byte[] buf = new byte[1024];
-            // byte[] buf = new byte[2];
             //读取字节的个数
             int hasRead;
             while ((hasRead = fileIn.read(buf)) > 0) {
@@ -33,7 +32,6 @@ public class IoTest {
                 //每读取一次就写一次，读多少就写多少
                 fos.write(buf, 0, hasRead);
             }
-
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
