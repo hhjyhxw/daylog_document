@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/design_pattern/design_pattern.iml" filepath="$PROJECT_DIR$/design_pattern/design_pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java_base/java_base.iml" filepath="$PROJECT_DIR$/java_base/java_base.iml" />
       <module fileurl="file://$PROJECT_DIR$/java_function_test/java_function_test.iml" filepath="$PROJECT_DIR$/java_function_test/java_function_test.iml" />
       <module fileurl="file://$PROJECT_DIR$/java_io/java_io.iml" filepath="$PROJECT_DIR$/java_io/java_io.iml" />
       <module fileurl="file://$PROJECT_DIR$/kafka_test/kafka_test.iml" filepath="$PROJECT_DIR$/kafka_test/kafka_test.iml" />

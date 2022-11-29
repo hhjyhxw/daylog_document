@@ -11,12 +11,14 @@
         <module name="design_pattern" />
         <module name="java_io" />
         <module name="java_function_test" />
-        <module name="yyou-rpc" />
         <module name="lock_test" />
+        <module name="java_base" />
+        <module name="yyou-rpc" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="design_pattern" target="1.8" />
+      <module name="java_base" target="1.7" />
       <module name="java_function_test" target="8" />
       <module name="java_io" target="1.5" />
       <module name="kafka_test" target="1.8" />
