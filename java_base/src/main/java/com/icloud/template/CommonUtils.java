@@ -15,6 +15,7 @@ public class CommonUtils {
     }
 
     public static void main(String[] args) {
+        String aa = "aa";
         Integer a = new Integer(1000);
         Integer b = new Integer(2000);
         User user1 = new User("zhangs");
